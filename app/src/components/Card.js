@@ -20,9 +20,7 @@ const Card = props => {
 
 const mapStateToProps = state => {
     return {
-
         isFetchingData: state.isFetchingData
-
     }
 }
 

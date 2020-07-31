@@ -12,7 +12,6 @@ export const getData = () => dispatch => {
             dispatch({ type: UPDATE_DATA, payload: response.data.cards})
         })
         .catch(err => {
-            console.error("Error fetching data from api: ", err)
-            dispatch({ type: SET_ERROR, payload: "Error fetching data from api"})
+            dispatch({ type: SET_ERROR, payload: "Error: couldn't fetch data from api"})
     })
 } 
