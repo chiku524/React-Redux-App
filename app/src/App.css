@@ -15,7 +15,6 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 45%;
   justify-content: center;
   align-items: center;
   border: 1px solid greenyellow;
@@ -23,10 +22,27 @@
   padding: 5px;
 }
 
-.row {
-  width: 100%;
+.pokeCard {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  width: 45%;
+  flex-wrap: wrap; 
+  margin: 5px auto;
 }
 
-.column {
-  width: 100%;
+h1 {
+  animation-name: glow;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes glow {
+  0% {color: gold;}
+  25% {color: greenyellow;}
+  50% {color: red;}
+  75% {color: white;}
+  90% {color: gold;}
+  100% {color: gold;}
 }

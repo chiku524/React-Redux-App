@@ -5,7 +5,7 @@ import { getData } from "../actions";
 
 const CardList = (props) => {
   return (
-    <>
+    <div className='pokeCard'>
       {props.error ? (
         <div>{props.error}</div>
       ) : (
@@ -27,7 +27,7 @@ const CardList = (props) => {
 
         </div>)
       )}
-    </>
+    </div>
   );
 };
 
