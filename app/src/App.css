@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 45%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid greenyellow;
+  margin: 5px auto;
+  padding: 5px;
+}
+
+.row {
+  width: 100%;
+}
+
+.column {
+  width: 100%;
+}
